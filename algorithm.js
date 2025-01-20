@@ -1,5 +1,5 @@
 function shuffle(name){
-    return name
+    return name.split(' ').reverse().join(' ')
 }
 
 console.log("shuffle('John McClane') -> McClane John / ", shuffle('John McClane'))
